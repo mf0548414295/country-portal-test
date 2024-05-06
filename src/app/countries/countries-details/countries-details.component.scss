@@ -1,0 +1,43 @@
+.detailsContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    gap:30px;
+    background-color: #f4f0e1;
+    height: 100%;
+    color:#00388c;
+}
+.inputContainer{
+    display: flex;
+    align-items: flex-start;
+    gap:5px;
+}
+input{
+    border-radius: 5px;
+    width: 130px;
+    border: .5px solid #00388c;
+    height: 20px;
+    color:#00388c;
+}
+.inputsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+button{
+    color:#00388c;
+    border-radius: 5px;
+    border: .5px solid #00388c;
+    height: 25px;
+    width:80px;
+    background-color: rgba(133, 190, 198, 0.35);
+}
+
+//#85bec6  rgba(133, 190, 198, 0.35) #f4f0e1 #012761 #d0e3d4

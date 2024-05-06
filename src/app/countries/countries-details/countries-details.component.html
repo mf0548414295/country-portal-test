@@ -1,1 +1,18 @@
-<p>countries-details works!</p>
+<div class="detailsContainer">
+  <h1>Country's Details</h1>
+  <img [src]="selectedCountry?.flags?.png" width="200" />
+  <div class="inputsContainer">
+    <div class="inputContainer">
+      <p>Population:</p>
+      <input type="text" [(ngModel)]="populationValue" />
+    </div>
+    <div class="inputContainer">
+      <p>Capital:</p>
+      <input type="text" [(ngModel)]="capitalValue" />
+    </div>
+  </div>
+  <div class="buttonsContainer">
+    <button (click)="onSave()">Save</button>
+    <button (click)="onExit()">Exit</button>
+  </div>
+</div>

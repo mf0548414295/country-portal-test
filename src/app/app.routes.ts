@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import {CountriesModule} from './countries/countries.module';
 
 export const routes: Routes = [
   {
